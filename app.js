@@ -87,7 +87,7 @@ const createSlider = () => {
       src="${slide}"
       alt="">`;
       sliderContainer.appendChild(item)
-      document.getElementById("select-hide").style.display="none"
+     
     })
     changeSlide(0)
     timer = setInterval(function () {
