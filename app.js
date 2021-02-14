@@ -103,6 +103,9 @@ const createSlider = () => {
 document.getElementById("create-slider").addEventListener("click", function(){
 })
 
+document.getElementById("create-slider").addEventListener("click" ,()=>{
+  document.getElementById("count-img").innerText =0; 
+})
 // change slider index 
 const changeItem = index => {
   changeSlide(slideIndex += index);
