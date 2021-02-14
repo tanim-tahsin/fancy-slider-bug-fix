@@ -97,7 +97,6 @@ const createSlider = () => {
   }
   else {
     alert("please enter positive value")
-    document.getElementById("research").style.display = "none";
       document.getElementById("count-img").innerText =0;  
   }
 }
